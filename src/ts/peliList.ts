@@ -1,0 +1,65 @@
+interface peliList {
+  pagina1: string[],
+  pagina2: string[],
+  pagina3: string[],
+  pagina4: string[],
+  pagina5: string[]
+}
+
+export const peliList:peliList = {
+  pagina1:[
+    "iron man",
+    "iron man 2",
+    "iron man 3",
+    "avengers",
+    "no manches frida",
+    "madagascar",
+    "el infierno",
+    "the man in black",
+    "matrix",
+  ],
+  pagina2:[
+    "joker",
+    "ice age",
+    "ice age 2",
+    "venom",
+    "ice age 3",
+    "the thing",
+    "the croods",
+    "the amazing spider man",
+    "toy story",
+  ],
+  pagina3:[
+    "toy story 2",
+    "toy story 3",
+    "screem",
+    "cars",
+    "madagascar 3",
+    "scary movie",
+    "scary movie 2",
+    "scary movie 3",
+    "scary movie 4",
+  ],
+  pagina4:[
+    "coco",
+    "lose yourself",
+    "dark",
+    "The Nightmare before Christmas",
+    "duel",
+    "home alone",
+    "die hard",
+    "101 dalmatians",
+    "Beverly Hills Ninja",
+  ],
+  pagina5:[
+    "The Pacifier",
+    "Leaving las vegas",
+    "There’s something about Mary",
+    "Sixth sense",
+    "George of the Jungle",
+    "The hangover",
+    "The parent trap",
+    "fury",
+    "Grease",
+  ]
+}
