@@ -24,7 +24,7 @@ export default function searchPeli(display:string, busqueda:string, butons:strin
     $peli.innerHTML = '';
 
     try {
-      let res = await fetch(`http://www.omdbapi.com/?apikey=2b66240b&t=${$busqueda.value}`),
+      let res = await fetch(`https://www.omdbapi.com/?apikey=2b66240b&t=${$busqueda.value}`),
         json = await res.json();
 
       if(!res.ok) throw {status: res.status, statusText: res.statusText}

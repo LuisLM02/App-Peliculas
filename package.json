@@ -1,7 +1,7 @@
 {
   "name": "app_peliculas",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aplicación que muestra información de películas programada con TypeScript, SASS, Bootstrap 5 y HTML",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
@@ -28,5 +28,13 @@
   },
   "dependencies": {
     "bootstrap": "^5.1.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisLM02/App-Peliculas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LuisLM02/App-Peliculas/issues"
+  },
+  "homepage": "https://github.com/LuisLM02/App-Peliculas#readme"
 }

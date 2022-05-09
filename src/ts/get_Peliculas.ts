@@ -7,7 +7,7 @@ export async function fetchPelis(pelis:string[], display:Element, loading:Elemen
   for (let i = 0; i < pelis.length; i++) {
     const ele = pelis[i];
 
-    let res = await fetch(`http://www.omdbapi.com/?apikey=2b66240b&t=${ele}`),
+    let res = await fetch(`https://www.omdbapi.com/?apikey=2b66240b&t=${ele}`),
       json = await res.json();
 
     display.appendChild(templatePeli(json));

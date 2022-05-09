@@ -17,7 +17,7 @@ export default function getDataPeli(){
     if(e.target instanceof Element){
       if(e.target.matches('.btn.btn-primary.pelicula')){
         try {
-          fetch(`http://www.omdbapi.com/?apikey=2b66240b&t=${e.target.getAttribute('name-peli')}`)
+          fetch(`https://www.omdbapi.com/?apikey=2b66240b&t=${e.target.getAttribute('name-peli')}`)
           .then((res) => res.json())
           .then((json) => {
             $img.setAttribute('src', json.Poster);
